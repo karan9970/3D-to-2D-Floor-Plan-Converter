@@ -1,16 +1,3 @@
-# import math
-# x=int(input('enter the size'))
-# def fib_Se(x):
-#     ept=[]
-#     sqrt5=math.sqrt(5)
-#     phi=(1+sqrt5)/2
-#     psi=(1-sqrt5)/2 
-#     for i in range(x):
-#         init=int((phi**i+phi**i)/sqrt5)
-#         ept.append(init)
-#     return ept
-
-# print(fib_Se(x))   
 import cv2
 import numpy as np
 def load_image(image_path):
